@@ -8,8 +8,8 @@ public class trainglepattern{
         System.out.print("Enter number of column:");
         int c=sc.nextInt();
 
-        for(int i=1;i<=c;i++){
-            for(int j=1;j<=i;j++){
+        for(int j=1;j<=i;j++){
+            for(int i=1;i<=c;i++){
                 System.out.print("* ");
             }
              System.out.println();
